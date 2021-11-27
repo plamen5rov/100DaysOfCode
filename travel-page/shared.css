@@ -8,6 +8,14 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+}
+
 #page-logo a {
     padding: 10px;
     font-family: "Oleo Script", sans-serif;
@@ -16,4 +24,15 @@ ul {
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+header li {
+    margin-left: 20px;
 }
