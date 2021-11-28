@@ -53,3 +53,24 @@ header a:hover {
     color: rgb(77, 77, 77);
     background-color: rgb(255, 251, 0);
 }
+
+footer {
+    background-color: black;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+footer li {
+    width: 80px;
+    height: 80px;
+    margin: 0 50px;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
+}
