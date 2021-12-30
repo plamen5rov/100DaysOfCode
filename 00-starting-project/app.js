@@ -4,7 +4,7 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', function(req, res) {
+app.get('/index', function(req, res) {
     const htmlFilePath = path.join(__dirname, 'views', 'index.html')
     res.sendFile(htmlFilePath)
 });
