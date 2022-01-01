@@ -1,1 +1,24 @@
-[{"name":"Da Rositta","address":"Buggibba, Malta","cuisine":"Maltese","website":"http://www.darositta.com","description":"Great people!"},{"name":"Happy","address":"31 Lyubotrun Street, Sofia","cuisine":"Mixed","website":"http://happy.com","description":"take away"},{"name":"Test","address":"test","cuisine":"Italian","website":"","description":"test"},{"name":"Bongo","address":"Bahovitsa","cuisine":"Ethno","website":"","description":"Why not?"}]
+[
+    {
+        "name":"Da Rositta",
+        "address":"Buggibba, Malta",
+        "cuisine":"Maltese",
+        "website":"http://www.darositta.com",
+        "description":"Great people!"},
+    {
+        "name":"Happy",
+        "address":"31 Lyubotrun Street, Sofia",
+        "cuisine":"Mixed","website":"http://happy.com",
+        "description":"take away"},
+    {
+        "name":"Test",
+        "address":"test",
+        "cuisine":"Italian",
+        "website":"",
+        "description":"test"},
+    {
+        "name":"Bongo",
+        "address":"Bahovitsa",
+        "cuisine":"Ethno",
+        "website":"",
+        "description":"Why not?"}]
