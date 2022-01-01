@@ -1,24 +1,42 @@
 [
     {
-        "name":"Da Rositta",
-        "address":"Buggibba, Malta",
-        "cuisine":"Maltese",
-        "website":"http://www.darositta.com",
-        "description":"Great people!"},
+        "id": "r1",
+        "name": "Da Rositta",
+        "address": "Buggibba, Malta",
+        "cuisine": "Maltese",
+        "website": "http://www.darositta.com",
+        "description": "Great people!"
+    },
     {
-        "name":"Happy",
-        "address":"31 Lyubotrun Street, Sofia",
-        "cuisine":"Mixed","website":"http://happy.com",
-        "description":"take away"},
+        "id": "r2",
+        "name": "Happy",
+        "address": "31 Lyubotrun Street, Sofia",
+        "cuisine": "Mixed",
+        "website": "http://happy.com",
+        "description": "take away"
+    },
     {
-        "name":"Test",
-        "address":"test",
-        "cuisine":"Italian",
-        "website":"",
-        "description":"test"},
+        "id": "r3",
+        "name": "Test",
+        "address": "test",
+        "cuisine": "Italian",
+        "website": "",
+        "description": "test"
+    },
     {
-        "name":"Bongo",
-        "address":"Bahovitsa",
-        "cuisine":"Ethno",
-        "website":"",
-        "description":"Why not?"}]
+        "id": "r4",
+        "name": "Bongo",
+        "address": "Bahovitsa",
+        "cuisine": "Ethno",
+        "website": "",
+        "description": "Why not?"
+    },
+    {
+        "name": "Palomino",
+        "address": "Taormina, Sicily",
+        "cuisine": "Italian",
+        "website": "",
+        "description": "best in town",
+        "id": "6abe4428-2d61-4197-96bf-2fcce26313ba"
+    }
+]
