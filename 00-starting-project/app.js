@@ -43,4 +43,10 @@ app.get("/restaurants", function (req, res) {
      restaurants: storedRestaurants});
 });
 
+app.get("/restaurants/:id", function (req, res) {
+  const restaurantID= req.params.id;
+
+  res.render('restaurant-detail', {rid: restaurantID});
+});
+
 app.listen(3000);
