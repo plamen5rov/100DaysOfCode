@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +9,21 @@
   <link rel="stylesheet" href="/styles/base.css">
   <link rel="stylesheet" href="/styles/profiles.css">
 </head>
+
 <body>
   <main id="new-user">
-    <form action="/profiles" method="POST">
+    <form action="/profiles" method="POST" enctype="multipart/form-data">
       <div class="form-control">
         <label for="username">Username</label>
         <input type="text" id="username" name="username" required>
       </div>
       <div class="form-control">
         <label for="image">User image</label>
-        ???
+        <input type="file" id="image" name="image" required accept=".jpg,.png,.gif,.jpeg">
       </div>
       <button class="btn">Save User</button>
     </form>
   </main>
 </body>
+
 </html>
